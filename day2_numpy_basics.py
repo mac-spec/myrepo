@@ -7,7 +7,9 @@ print("Array a:", a)
 b = np.array([[1, 2, 3],
               [4, 5, 6]])
 print("\nArray b:\n", b)
-
+c=np.array([1,2,3,4,5,6])
+print(c.reshape(2,3))
+print(c.reshape(3,2))
 # Shape and dtype
 print("\nShape of a:", a.shape)
 print("Shape of b:", b.shape)
